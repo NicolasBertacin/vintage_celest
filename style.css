@@ -70,8 +70,50 @@ header {
     background-repeat: no-repeat;
     margin-left: 70px;
     margin-right: 70px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
+
+.container-3{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.p-left{
+    margin-right: 300px;
+    padding: 1%;
+}
+
+.p-right{
+    margin-right: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
