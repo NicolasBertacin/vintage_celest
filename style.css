@@ -5,55 +5,47 @@ box-sizing: border-box;
 outline: 0;
 background-color: #e5e5e5e5;
 }
-.top-nav{
-
-    background-color: #e5e5e5e5;
-    border-bottom: 1px solid;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+header {
+    background-color: #e6e6e6;
     padding: 10px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; 
     width: 100%;
-    box-sizing: border-box;
 }
 
-.nav-links{
-   
-    padding: 0 15px;
-    font-size: 14px;
+.logo {
+    font-size: 32px;
+    margin: 0;
 }
 
-.nav-title{
-    font-size: 25px;
-}
-
-.container{
+.menu {
     display: flex;
-    width: 90%;
-    max-width: 1200px;
-    margin: 40px auto;
-    gap: 40PX;
+    gap: 50px; 
+    margin-right: 430px;
+    margin-top: 10px;
 }
 
-.container-2{
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 10px;
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
 }
 
-.container > h1{
-    
+
+
+.imagens{
+    position: fixed;
 }
 
-.container > h2{
-    margin-top: 15px;
-}
-
-.container > h2{
-    font-size: large;
-}
-
-.container > img{
-    
+.img-1{
+    background-image: url(image\ 1.png);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
 }
