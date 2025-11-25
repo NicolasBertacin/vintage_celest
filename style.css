@@ -31,7 +31,7 @@ header {
 
 .menu a {
     text-decoration: none;
-    color: black;
+    color: rgba(102, 100, 100, 0.767);
     font-size: 20px;
 }
 
@@ -85,8 +85,14 @@ header {
 }
 
 .footer{
-    
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 45%;
+    margin-right: 45%;
+    width: 200px;
+
 }
+
 
 
 
