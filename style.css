@@ -17,6 +17,15 @@ header {
     width: 100%;
 }
 
+.navbar > a {
+    all: unset; 
+    cursor: pointer;
+}
+
+.navbar > a > .logo {
+    color: black;
+}
+
 .logo {
     text-decoration: none;
     color: black;
