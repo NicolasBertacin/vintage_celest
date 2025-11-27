@@ -28,16 +28,16 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 25px 40px;
-    background: #ffffff;        /* Fica branco */
-    color: #000;                /* Texto preto */
-    border-bottom: 1px solid #e3e3e3;  /* Linha fina como no layout */
+    background: #ffffff;        
+    color: #000;                
+    border-bottom: 1px solid #e3e3e3;  
     position: relative;
 }
 
 .navbar nav {
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);  /* CENTRALIZA */
+    transform: translateX(-50%);  
 }
 
 .navbar .logo {
@@ -48,7 +48,7 @@ body {
 .navbar > nav > a {
     margin-left: 40px;
     text-decoration: none;
-    color: #9c9c9c;     /* Cinza claro igual ao layout */
+    color: #9c9c9c;     
     font-size: 15px;
     font-weight: 300;
 }
@@ -85,15 +85,14 @@ body {
 
 /* FOOTER ------------------------------------ */
 .footer {
-    /* 1. LAYOUT 2-COLUNAS (Quem Somos & Assine) */
     display: flex;
     justify-content: space-between;
-    padding: 40px 40px 0 40px; /* Padding ajustado no fundo */
+    padding: 40px 40px 0 40px; 
     background: #f3f3f3;
 }
 
 .footer-section {
-    width: 45%; /* Espaço para as duas colunas */
+    width: 45%; 
     font-size: 13px;
     line-height: 1.6;
     color: #555;
@@ -106,9 +105,9 @@ body {
     color: #000;
 }
 
-/* Alinhamento do input da Newsletter */
+
 .input-wrapper {
-    margin-top: 10px; /* Espaço após o texto */
+    margin-top: 10px; 
     display: flex;
     align-items: center;
     border-bottom: 1px solid #000;
@@ -117,19 +116,16 @@ body {
     position: relative;
 }
 
-/* SEÇÃO CENTRAL DE LINKS (.footer-explore) */
+
 .footer-explore {
-    /* 2. CENTRALIZAÇÃO E ESTILO DE LINK */
     text-align: center;
-    padding: 40px 40px 10px 40px; /* Padding no topo e laterais */
+    padding: 40px 40px 10px 40px; 
     background: #f3f3f3;
     
-    /* Linha de separação do corpo da página (opcional, mas bom) */
     border-top: 1px solid #dcdcdc; 
 }
 
 .footer-explore p {
-    /* Faz os textos ficarem na mesma linha */
     display: inline-block;
     color: #000;
     font-size: 14px;
@@ -137,34 +133,26 @@ body {
 }
 
 .footer-explore a {
-    /* Estilo dos links de moeda e região */
     text-decoration: none;
     color: #000;
-    padding: 0 5px; /* Padding sutil */
+    padding: 0 5px;
     font-size: 14px;
 }
 
-/* Estilo do retângulo de "Compre para BRL" */
 .footer-explore p:first-child a {
-     /* Este é o link "Compre para BRL" */
      border: 1px solid #c9c9c9;
      padding: 5px 10px;
 }
 
-
-/* BARRA DE DIREITOS AUTORAIS (.footer-bottom) */
 .footer-bottom {
-    /* 3. BARRA FINAL */
     display: flex;
-    justify-content: flex-start; /* Alinha o texto à esquerda */
+    justify-content: flex-start;
     padding: 15px 40px;
     background: #f3f3f3;
     font-size: 12px;
-    /* Linha de separação */
     border-top: 1px solid #dcdcdc; 
 }
 
-/* Oculta o segundo parágrafo ("Termos & Privacidade") que não aparece na imagem */
 .footer-bottom p:nth-child(2) {
     display: none;
 }
