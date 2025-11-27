@@ -1,12 +1,12 @@
 /* parte do kill */
-*{
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-outline: 0;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
 }
 
-.divisor-2{
+.divisor-2 {
     width: 100%;
     height: 1px;
     background-color: #494949c1;
@@ -14,37 +14,37 @@ outline: 0;
 
 h1 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;          
+    font-weight: 600;
     font-size: 64px;
-    line-height: normal;      
+    line-height: normal;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;          
+    font-weight: 600;
     font-size: 48px;
-    line-height: normal;       
+    line-height: normal;
 }
 
-header, 
+header,
 .header-text {
     font-family: 'Archivo', sans-serif;
-    font-weight: 600;         
-    font-size: 24px;           
-    line-height: 96px;        
-    margin-bottom: 0;         
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 96px;
+    margin-bottom: 0;
 }
 
 p {
     font-family: 'Playfair Display', serif;
-    font-weight: 400;          
+    font-weight: 400;
     font-size: 24px;
-    line-height: 130%;         
+    line-height: 130%;
 }
 
 button {
     font-family: 'Archivo', sans-serif;
-    font-weight: 600;      
+    font-weight: 600;
     font-size: 24px;
     cursor: pointer;
 }
@@ -65,16 +65,16 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 25px 40px;
-    background: #ffffff;        
-    color: #000;                
-   
+    background: #ffffff;
+    color: #000;
+
     position: relative;
 }
 
 .navbar nav {
     position: absolute;
     left: 50%;
-    transform: translateX(-50%); 
+    transform: translateX(-50%);
 }
 
 .navbar .logo {
@@ -82,10 +82,10 @@ body {
     font-weight: bold;
 }
 
-.navbar > nav > a {
+.navbar>nav>a {
     margin-left: 40px;
     text-decoration: none;
-    color: #9c9c9c;     
+    color: #9c9c9c;
     font-size: 15px;
     font-weight: 300;
 }
@@ -93,13 +93,14 @@ body {
 .navbar nav a:hover {
     color: #000;
 }
+
 /* --------------------------------------------------------------------------------- */
 
-.imagens{
+.imagens {
     position: fixed;
 }
 
-.img-1{
+.img-1 {
     background-image: url(Assets/image\ 1.png);
     height: 100vh;
     background-size: cover;
@@ -109,7 +110,7 @@ body {
     margin-bottom: 20px;
 }
 
-.img-2{
+.img-2 {
     background-image: url(Assets/image\ 2.png);
     height: 100vh;
     background-size: cover;
@@ -119,7 +120,7 @@ body {
     margin-bottom: 50px;
 }
 
-.img-3{
+.img-3 {
     background-image: url(Assets/image\ 3.png);
     height: 100vh;
     background-size: cover;
@@ -131,18 +132,18 @@ body {
     margin-bottom: 100px;
 }
 
-.container-3{
+.container-3 {
     display: flex;
     justify-content: space-between;
     padding: 20px;
 }
 
 .p-left,
-.p-right{
+.p-right {
     width: 45%;
 }
 
-.footer{
+.footer {
     margin-top: 30px;
     margin-bottom: 20px;
     margin-left: 45%;
@@ -151,7 +152,7 @@ body {
 
 }
 
-.navs{
+.navs {
     padding: 1%;
     color: rgba(102, 100, 100, 0.767);
 }
@@ -189,7 +190,7 @@ body {
 }
 
 
-.title-bags > h2 {
+.title-bags>h2 {
     font-weight: 700;
     font-size: 16px;
     margin-bottom: 8px;
@@ -217,7 +218,7 @@ body {
 }
 
 
-.divisor-3{
+.divisor-3 {
     width: 100%;
     height: 1px;
     background-color: #d6d6d6;
@@ -230,7 +231,7 @@ body {
     font-size: 13px;
     color: #333;
 }
-    
+
 
 .seta {
     font-size: 12px;
@@ -239,14 +240,14 @@ body {
 }
 
 
-.container-explore{
+.container-explore {
     margin-top: 10px;
     margin-bottom: 30px;
     margin-left: 50px;
     justify-content: center;
 }
 
-.container-explore-2{
+.container-explore-2 {
     margin-top: 40px;
     display: flex;
     justify-content: space-between;
@@ -254,28 +255,67 @@ body {
     padding: 0 50px;
 }
 
-.container-ex-left img{
+.container-ex-left img {
     width: 350px;
     height: auto;
     margin-bottom: 30px;
 }
 
-.container-ex-right{
+.container-ex-right {
     max-width: 550px;
     text-align: left;
 }
 
-.container-ex-right h3{
+.container-ex-right h3 {
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 40px;
 }
 
-.container-ex-right p{
+.container-ex-right p {
     font-size: 15px;
     line-height: 1.4;
 }
 
+.container-ex-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.cota
+
+.container-ex-left-2 > p{
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    width: 300px;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.input-wrapper label {
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.input-wrapper input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 14px;
+}
+
+.input-wrapper .arrow {
+    font-size: 19px;
+    margin-left: 10px;
+}
 
 
 
