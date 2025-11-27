@@ -85,32 +85,88 @@ body {
 
 /* FOOTER ------------------------------------ */
 .footer {
+    /* 1. LAYOUT 2-COLUNAS (Quem Somos & Assine) */
     display: flex;
     justify-content: space-between;
-    padding: 40px;
+    padding: 40px 40px 0 40px; /* Padding ajustado no fundo */
     background: #f3f3f3;
 }
 
 .footer-section {
-    width: 45%;
+    width: 45%; /* Espaço para as duas colunas */
+    font-size: 13px;
+    line-height: 1.6;
+    color: #555;
 }
 
 .footer-section h3 {
-    margin-bottom: 10px;
-    font-size: 18px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #000;
 }
 
-.footer-section p {
-    font-size: 14px;
-    line-height: 1.5;
+/* Alinhamento do input da Newsletter */
+.input-wrapper {
+    margin-top: 10px; /* Espaço após o texto */
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    width: 300px;
+    padding-bottom: 5px;
+    position: relative;
 }
 
-.footer-bottom {
-    background: #f3f3f3;
+/* SEÇÃO CENTRAL DE LINKS (.footer-explore) */
+.footer-explore {
+    /* 2. CENTRALIZAÇÃO E ESTILO DE LINK */
     text-align: center;
-    padding: 15px;
-    margin-top: -10px;
+    padding: 40px 40px 10px 40px; /* Padding no topo e laterais */
+    background: #f3f3f3;
+    
+    /* Linha de separação do corpo da página (opcional, mas bom) */
+    border-top: 1px solid #dcdcdc; 
+}
+
+.footer-explore p {
+    /* Faz os textos ficarem na mesma linha */
+    display: inline-block;
+    color: #000;
     font-size: 14px;
+    margin: 0 10px;
+}
+
+.footer-explore a {
+    /* Estilo dos links de moeda e região */
+    text-decoration: none;
+    color: #000;
+    padding: 0 5px; /* Padding sutil */
+    font-size: 14px;
+}
+
+/* Estilo do retângulo de "Compre para BRL" */
+.footer-explore p:first-child a {
+     /* Este é o link "Compre para BRL" */
+     border: 1px solid #c9c9c9;
+     padding: 5px 10px;
+}
+
+
+/* BARRA DE DIREITOS AUTORAIS (.footer-bottom) */
+.footer-bottom {
+    /* 3. BARRA FINAL */
+    display: flex;
+    justify-content: flex-start; /* Alinha o texto à esquerda */
+    padding: 15px 40px;
+    background: #f3f3f3;
+    font-size: 12px;
+    /* Linha de separação */
+    border-top: 1px solid #dcdcdc; 
+}
+
+/* Oculta o segundo parágrafo ("Termos & Privacidade") que não aparece na imagem */
+.footer-bottom p:nth-child(2) {
+    display: none;
 }
 
 
@@ -141,3 +197,6 @@ body {
     margin-left: 10px;
 }
 
+.footer-explore{
+    text-align: center;
+}
