@@ -12,7 +12,11 @@
     background-color: #494949c1;
 }
 
-h1 {
+* > p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+* > h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 64px;
@@ -516,6 +520,24 @@ p {
     padding: 1%;
 }
 
+.banner img {
+    width: 100%;
+    display: block;
+}
+
+/* GRID -------------------------------------- */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 20px;
+}
+
+.banner-large img {
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+}
 
 
 
