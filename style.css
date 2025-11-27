@@ -93,6 +93,40 @@ header {
 
 }
 
+.navs{
+    padding: 1%;
+    color: rgba(102, 100, 100, 0.767);
+}
+
+.container-all{
+    display: flex;
+    text-align: start;
+}
+
+.container-left{
+    display: flex;
+   
+}
+
+.container-right{
+    display: flex;
+   
+}
+
+.left {
+    width: 50%;
+}
+
+.left img {
+    width: 100%;
+    display: block; 
+}
+
+.right {
+    width: 50%;
+    padding: 40px;
+}
+
 
 
 
