@@ -264,6 +264,19 @@ form button:hover {
     opacity: 0.85;
 }
 
+.container-explore{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    justify-content: center;
+}
+
+.divisor-2 {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(72, 71, 71);
+    margin: 18px 0;
+}
 
 
 
