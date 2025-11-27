@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+    background-color: #e5e5e5e5;
+}
+
+header {
+    background-color: #e6e6e6;
+    padding: 10px 20px;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;          /* SemiBold */
+    font-size: 64px;
+    line-height: normal;       /* AUTO */
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;          /* SemiBold */
+    font-size: 48px;
+    line-height: normal;       /* AUTO */
+}
+
+/* ====== CABEÇALHO ====== */
+header, 
+.header-text {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 600;          /* SemiBold */
+    font-size: 24px;           /* Tamanho pedido */
+    line-height: 96px;         /* Altura → 96 */
+    margin-bottom: 0;          /* Espaçamento → 0% */
+}
+
+/* ====== PARÁGRAFOS ====== */
+p {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;          /* Regular */
+    font-size: 24px;
+    line-height: 130%;         /* 30% acima do tamanho base */
+}
+
+/* ====== BOTÕES ====== */
+button {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 600;          /* SemiBold */
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+}
+
+.navbar > a {
+    all: unset; 
+    cursor: pointer;
+}
+
+.navbar > a > .logo {
+    color: black;
+}
+
+.logo {
+    text-decoration: none;
+    color: black;
+}
+
+.menu {
+    display: flex;
+    gap: 50px; 
+    margin-right: 430px;
+    margin-top: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgba(102, 100, 100, 0.767);
+    font-size: 20px;
+}
+
+.img-7 {
+    background-image: url(Assets/image\ 7.png);
+}
