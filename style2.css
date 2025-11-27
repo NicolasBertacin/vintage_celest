@@ -84,3 +84,82 @@ body {
 }
 
 /* FOOTER ------------------------------------ */
+
+.container-ex-3 {
+     margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 50px;
+}
+
+.container-ex-left-2{
+    padding-right: 350px;
+}
+
+.container-ex-left-2 > h3{
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.container-ex-left-2 > p{
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.container-ex-right-2{
+    margin-right: 100px;
+}
+
+.container-ex-right-2 > p{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.container-ex-right-2 > h3{
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    width: 300px;
+    padding-bottom: 5px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-wrapper label {
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.input-wrapper input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 14px;
+}
+
+.input-wrapper .arrow {
+    font-size: 19px;
+    margin-left: 10px;
+}
+
+.footer-explore{
+    text-align: center;
+}
+
+.footer-explore > p{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.p-explore > p{
+    margin-left: 10px;
+    font-size: 17px;
+}
