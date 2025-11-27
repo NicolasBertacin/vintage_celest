@@ -344,43 +344,8 @@ button {
 }
 
 
-/* LINHA DIVISÓRIA */
-.divisor {
-    margin: 50px 0;
-    border: none;
-    border-top: 1px solid #ccc;
-}
 
 
-/* SEÇÃO INFERIOR */
-.sobre {
-    display: flex;
-    justify-content: space-between;
-    padding: 40px;
-}
-
-.quem-somos, 
-.newsletter {
-    width: 45%;
-}
-
-.newsletter input {
-    width: 100%;
-    margin-top: 8px;
-}
-
-
-/* FOOTER */
-footer {
-    text-align: center;
-    padding: 40px 0;
-    color: #444;
-}
-
-footer a {
-    text-decoration: underline;
-    color: #444;
-}
 
 
 
