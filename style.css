@@ -102,18 +102,66 @@ body {
 
 /* ------------------------------------ index ------------------------------------------------ */
 
-.imagens {
-    position: fixed;
+.img-1 {
+    width: 100%;
+    height: 450px; 
+    background-image: url('Assets/image\ 1.pnG'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+    padding-bottom: 40px;
+    position: relative;
 }
 
-.img-1 {
-    background-image: url(Assets/image\ 1.png);
-    height: 100vh;
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: center;
-    background-repeat: no-repeat;
-    margin-bottom: 20px;
+.button-area {
+    text-align: center;
+}
+
+.button-title {
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.btn-outline,
+.btn-solid {
+    padding: 12px 28px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-outline {
+    background: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.btn-outline:hover {
+    background: #000;
+    color: #fff;
+}
+
+.btn-solid {
+    background: #000;
+    border: 1px solid #fffdfd;
+    color: #fff;
+}
+
+.btn-solid:hover {
+    background: #333;
 }
 
 .img-2 {
